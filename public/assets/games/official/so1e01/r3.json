@@ -1,0 +1,105 @@
+{
+    "boardData": {
+        "setup": {
+            "code": "BBBD",
+            "round": 3,
+            "cryptics": []
+        },
+        "data": [
+            {
+                "order": 1,
+                "quiz": [
+                    {
+                        "category": [
+                            "Film Magazines",
+                            "UK No 1 Albums of the 1990s",
+                            "UK Gameshows"
+                        ],
+                        "clues": [
+                            {
+                                "title": "Family Fortunes",
+                                "result": "C",
+                                "info": ""
+                            },
+                            {
+                                "title": "Fangoria",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Blue is the colour",
+                                "result": "B",
+                                "info": ""
+                            },
+                            {
+                                "title": "Little White Lies",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Gold Rush",
+                                "result": "1",
+                                "info": "A fictional version of the \"Who Wants to be a Millionaire\" in Only Fools & Horses"
+                            },
+                            {
+                                "title": "Sight & Sound",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "United Passions",
+                                "result": "2",
+                                "info": "Propaganda film for FIFA"
+                            },
+                            {
+                                "title": "Jagged Little Pill",
+                                "result": "B",
+                                "info": ""
+                            },
+                            {
+                                "title": "Raise the Roof",
+                                "result": "C",
+                                "info": ""
+                            },
+                            {
+                                "title": "The Interception",
+                                "result": "2",
+                                "info": "Russian gameshow, chase hunt between the police and the contestant by car"
+                            },
+                            {
+                                "title": "Variety",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Spice",
+                                "result": "B",
+                                "info": ""
+                            },
+                            {
+                                "title": "Talk on Corners",
+                                "result": "B",
+                                "info": ""
+                            },
+                            {
+                                "title": "Moviecrushpod",
+                                "result": "1",
+                                "info": "Podcast on movies"
+                            },
+                            {
+                                "title": "Urban Hymns",
+                                "result": "B",
+                                "info": ""
+                            },
+                            {
+                                "title": "The Golden Shot",
+                                "result": "C",
+                                "info": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

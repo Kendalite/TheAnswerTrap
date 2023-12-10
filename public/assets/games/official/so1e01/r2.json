@@ -1,0 +1,157 @@
+{
+    "boardData": {
+        "setup": {
+            "code": "BBBC",
+            "round": 2,
+            "cryptics": ["City Lights", "Happy Tuesdays"]
+        },
+        "data": [
+            {
+                "order": 1,
+                "quiz": [
+                    {
+                        "category": [
+                            "Lost Cities",
+                            "African Capitals"
+                        ],
+                        "clues": [
+                            {
+                                "title": "Alikanas",
+                                "result": "2",
+                                "info": "Greek island, is supposed to be one of the justification of Atlantis"
+                            },
+                            {
+                                "title": "Babylon",
+                                "result": "A",
+                                "info": "Ancient Capital of Mesopotamia"
+                            },
+                            {
+                                "title": "Accra",
+                                "result": "B",
+                                "info": ""
+                            },
+                            {
+                                "title": "Carthage",
+                                "result": "A",
+                                "info": "City in the location of today's Tunisia"
+                            },
+                            {
+                                "title": "Addis Ababa",
+                                "result": "B",
+                                "info": "Capital of Ethiopia"
+                            },
+                            {
+                                "title": "Lagos",
+                                "result": "2",
+                                "info": ""
+                            },
+                            {
+                                "title": "Chichén Itzà",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Lilongwe",
+                                "result": "B",
+                                "info": "Capital of Malawi"
+                            },
+                            {
+                                "title": "Brookesia Nana",
+                                "result": "1",
+                                "info": "It's one the tiniest reptils in the world"
+                            },
+                            {
+                                "title": "Lusaka",
+                                "result": "B",
+                                "info": ""
+                            },
+                            {
+                                "title": "Marrakech",
+                                "result": "1",
+                                "info": "Marrakech is not an African Capital"
+                            },
+                            {
+                                "title": "Pompeii",
+                                "result": "A",
+                                "info": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "order": 2,
+                "quiz": [
+                    {
+                        "category": [
+                            "Things associated with Tuesday",
+                            "Reasons for Ian Dury and The Blockheads to be cheerful"
+                        ],
+                        "clues": [
+                            {
+                                "title": "D-Day",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Child full of woe",
+                                "result": "2",
+                                "info": "Ryhme that plays with the word \"Wednesday\""
+                            },
+                            {
+                                "title": "Bolshoi Ballet",
+                                "result": "B",
+                                "info": ""
+                            },
+                            {
+                                "title": "Mardi Gras",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "The smile of a parrot",
+                                "result": "B",
+                                "info": ""
+                            },
+                            {
+                                "title": "Pancakes",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Day Craig David chilled",
+                                "result": "1",
+                                "info": "In the song, he relaxes on sunday"
+                            },
+                            {
+                                "title": "Yellow Socks",
+                                "result": "B",
+                                "info": ""
+                            },
+                            {
+                                "title": "Financial Quadruple Witching",
+                                "result": "1",
+                                "info": "It's the third friday of a trimester"
+                            },
+                            {
+                                "title": "The Planet Mars",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Soloman Grundy Christened",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Jason Voorhees",
+                                "result": "2",
+                                "info": "Name associated with \"Friday the 13th\""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

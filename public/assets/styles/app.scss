@@ -1,0 +1,76 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+/*
+ * Fonts
+ */
+@font-face {
+    font-family: "Hakuna_Sans";
+    src: url('../fonts/Hakuna_Sans.otf') format('opentype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Linotype_Spitz_Book";
+    src: url('../fonts/Linotype_Spitz_Book.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: "LTOrdinar_Regular";
+    src: url('../fonts/LTOrdinar_Regular.ttf');
+    font-weight: normal;
+}
+/*
+ * Variables
+ */
+:root {
+    /* Classics */
+    --tat-white: #FFFFFF;
+    --tat-black: #000000;
+    --tat-color-main-beige: #E0D0BD;
+    --tat-color-main-black: #0C0E12;
+    --tat-color-main-red: #C0101F;
+    /* Colors */
+    --tat-color-light-red: #B10F1E;
+    --tat-color-medium-red: #84081E;
+    --tat-color-dark-red: #6A001A;
+    --tat-color-light-orange: #ff8800;
+    --tat-color-medium-orange: #DB7500;
+    --tat-color-dark-orange: #985100;
+    --tat-color-light-green: #338833;
+    --tat-color-medium-green: #336633;
+    --tat-color-cash-green: #0B740D;
+    --tat-color-dark-green: #006600;
+    --tat-color-light-brown: #480112;
+    --tat-color-medium-brown: #3B0006;
+    --tat-color-dark-brown: #2C0007;
+    /* Gradients */
+    --tat-gradient-dark: linear-gradient(to bottom, var(--tat-color-medium-brown), var(--tat-color-dark-brown));
+    --tat-gradient-red: linear-gradient(to bottom, var(--tat-color-dark-red), var(--tat-color-light-brown));
+    --tat-gradient-orange: linear-gradient(to bottom, var(--tat-color-medium-orange), var(--tat-color-dark-orange));
+    --tat-gradient-green: linear-gradient(to bottom, var(--tat-color-medium-green), var(--tat-color-dark-green));
+    --tat-gradient-cash: linear-gradient(to bottom, var(--tat-color-cash-green), var(--tat-color-dark-green));
+    --tat-gradient-light: linear-gradient(to bottom, var(--tat-color-light-red), var(--tat-color-medium-red));
+    /* Border */
+    --tat-border-transparent: 5px solid transparent;
+    --tat-border-solid-red: 5px solid var(--tat-color-main-red);
+    --tat-border-solid-orange: 5px solid var(--tat-color-medium-orange);
+    --tat-border-solid-black: 5px solid var(--tat-color-main-black);
+    --tat-border-alternating-alert: repeating-linear-gradient(45deg, var(--tat-black), var(--tat-black) 24px, transparent 24px, transparent 25px, var(--tat-color-main-red) 25px, var(--tat-color-main-red) 50px), repeating-linear-gradient(135deg, var(--tat-black), var(--tat-black) 24px, transparent 24px, transparent 25px, var(--tat-color-main-red) 25px, var(--tat-color-main-red) 50px), repeating-linear-gradient(225deg, var(--tat-black), var(--tat-black) 24px, transparent 24px, transparent 25px, var(--tat-color-main-red) 25px, var(--tat-color-main-red) 50px), repeating-linear-gradient(315deg, var(--tat-black), var(--tat-black) 24px, transparent 24px, transparent 25px, var(--tat-color-main-red) 25px, var(--tat-color-main-red) 50px);
+    --tat-border-alert-banner: 0 calc(100% + 70.71px), calc(100% + 70.71px) 10px, 0 calc(100% + 70.71px) , calc(100% + 70.71px) 10px;
+    --tat-border-alert-maxi: 10px calc(100% + 70.71px), calc(100% + 70.71px) 10px, 10px calc(100% + 70.71px) , calc(100% + 70.71px) 10px;
+    --tat-border-alert-mini: 5px calc(100% + 70.71px), calc(100% + 70.71px) 5px, 5px calc(100% + 70.71px) , calc(100% + 70.71px) 5px;
+    /* Fonts */
+    --tat-font-family-hakunareg: "Hakuna_Sans", "Arial", sans-serif;
+    --tat-font-family-linotyper: "Linotype_Spitz_Book", "Verdana", sans-serif;
+    --tat-font-family-ltordinar: "LTOrdinar_Regular", "Tahoma", sans-serif;
+
+    --tat-font-trap-sizeExtraL: 118px;
+    --tat-font-trap-sizeLarge: 118px;
+    --tat-font-trap-sizeMedium: 118px;
+    --tat-font-trap-sizeSmall: 118px;
+    --tat-font-trap-sizeExtraS: 118px;
+    /* Others */
+    --tat-shadow-box-trap: inset 0 0 50px rgba(0, 0, 0, 0.75);
+}
+
+// Parts
+@import './modules/gameplay.scss';

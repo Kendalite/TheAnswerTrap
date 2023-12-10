@@ -1,0 +1,17 @@
+{% if psDesign is not defined %}
+    {% set psDesign = 'answer' %}
+{% endif %}
+{% if psLabel is not defined %}
+    {% set psLabel = 'Label' %}
+{% endif %}
+{% if psValue is not defined %}
+    {% set psValue = '' %}
+{% endif %}
+
+{% if psValue %}
+  <div class="{{ psDesign|formatGamePiece }}" data-answer="{{ psValue }}">
+{% else %}
+  <div class="{{ psDesign|formatGamePiece }}">
+{% endif %}
+  <p>{{ psLabel }}</p>
+</div>

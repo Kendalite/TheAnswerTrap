@@ -1,0 +1,103 @@
+{
+    "boardData": {
+        "setup": {
+            "code": "BBBF",
+            "round": 4,
+            "cryptics": ["Puppet Masters"]
+        },
+        "data": [
+            {
+                "order": 1,
+                "quiz": [
+                    {
+                        "category": [
+                            "Muppet Characters"
+                        ],
+                        "clues": [
+                            {
+                                "title": "Sweetmus",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Simsim",
+                                "result": "2",
+                                "info": ""
+                            },
+                            {
+                                "title": "Scooter",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Rowlf",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Sad Sack",
+                                "result": "1",
+                                "info": ""
+                            },
+                            {
+                                "title": "Pepe",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Miss Piggy",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Piero",
+                                "result": "2",
+                                "info": "Piero Umiliani, composer"
+                            },
+                            {
+                                "title": "Lew Zealand",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Kermit",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Hoggle",
+                                "result": "1",
+                                "info": ""
+                            },
+                            {
+                                "title": "Gonzo",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Badger",
+                                "result": "1",
+                                "info": ""
+                            },
+                            {
+                                "title": "Fozzie",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Dr Teeth",
+                                "result": "A",
+                                "info": ""
+                            },
+                            {
+                                "title": "Denver",
+                                "result": "2",
+                                "info": "John Denver, \"A Christmas Together\" collaborator of the show"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

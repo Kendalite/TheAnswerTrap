@@ -1,0 +1,96 @@
+/**
+ * Game Blocks
+ */
+
+.game-block {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: var(--tat-color-main-red);
+    max-width: 760px;
+    max-height: 260px;
+    text-align: center;
+    font-family: var(--tat-font-family-ltordinar);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+    & > p {
+        padding: 0;
+        margin: 0;
+        color: var(--tat-black);
+    }
+    &.game-category {
+        background: var(--tat-gradient-dark);
+        > p {
+            color: var(--tat-white);
+        }
+    }    
+    &.game-answer {
+        background: var(--tat-gradient-red);
+        > p {
+            color: var(--tat-white);
+        }
+    }
+    &.game-correct {
+        background: var(--tat-gradient-green);
+        > p {
+            color: var(--tat-black);
+        }
+    }
+    &.game-cash {
+        font-family: var(--tat-font-family-hakunareg);
+        background: var(--tat-gradient-cash);
+        > p {
+            color: var(--tat-white);
+        }
+    }
+    &.game-mistake {
+        background: var(--tat-gradient-orange);
+        > p {
+            color: var(--tat-black);
+        }
+    }
+    &.game-selected {
+        background: var(--tat-gradient-light);
+        > p {
+            color: var(--tat-white);
+        }
+    }
+    &.game-error {
+        background-color: var(--tat-black);
+        background-image: var(--tat-border-alternating-alert);
+        background-size: var(--tat-border-alert-mini);
+        background-position: 0 0, 0 0, 100% 0, 0 100%;
+        background-repeat: no-repeat;
+        > p {
+            color: var(--tat-white);
+        }
+    }
+    &.border-mistake {
+        border: var(--tat-border-solid-orange);
+        padding: 0;
+    }
+}
+
+/**
+ * Game Blocks - Trap
+ */
+
+.game-trap {
+    font-size: var(--tat-font-trap-sizeLarge);
+    font-family: var(--tat-font-family-linotyper);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    box-shadow: var(--tat-shadow-box-trap);
+    background-image: var(--tat-border-alternating-alert);
+    background-size: var(--tat-border-alert-maxi);
+    background-position: 0 0, 0 0, 100% 0, 0 100%;
+    background-repeat: no-repeat;
+    animation: borderAnimation 1s infinite linear;
+}
+
+@keyframes borderAnimation {
+    from { background-position: 0 0, -70.71px 0, 100% -70.71px, 0 100%; }
+    to { background-position: 0 -70.71px, 0 0, 100% 0, -70.71px 100%; }
+}
+

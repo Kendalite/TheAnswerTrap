@@ -1,0 +1,7 @@
+{# Loader #}
+{% extends 'base.html.twig' %}
+{% block title %}Game Board{% endblock %}
+{# Body #}
+{% block body %}
+    {% include 'parts/block_answer.html.twig' with {'psDesign': 'cash', 'psLabel' : '£10,000'} %}
+{% endblock %}
