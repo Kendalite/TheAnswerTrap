@@ -2,6 +2,7 @@ The Answer Trap - Web Project
 ========================
 
 This Symfony application is a reproduction on the show [The Answer Trap][1].
+Project has been archived for now due to working on another project.
 
 Requirements
 ------------
